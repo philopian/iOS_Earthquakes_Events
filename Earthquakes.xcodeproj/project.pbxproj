@@ -55,22 +55,22 @@
 		BB725C04182C9C8B00E26B37 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BB725C06182D3ECD00E26B37 /* XMLParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParserTests.m; sourceTree = "<group>"; };
 		BB725C0A182D455C00E26B37 /* MapViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewControllerTests.m; sourceTree = "<group>"; };
-		BB9073C218285F930016FEB7 /* XML_Parser_EarthquakeData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XML_Parser_EarthquakeData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9073C218285F930016FEB7 /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9073C518285F930016FEB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB9073C718285F930016FEB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BB9073C918285F930016FEB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BB9073CD18285F930016FEB7 /* XML_Parser_EarthquakeData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XML_Parser_EarthquakeData-Info.plist"; sourceTree = "<group>"; };
+		BB9073CD18285F930016FEB7 /* Earthquakes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Earthquakes-Info.plist"; sourceTree = "<group>"; };
 		BB9073CF18285F930016FEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB9073D118285F930016FEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB9073D318285F930016FEB7 /* XML_Parser_EarthquakeData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XML_Parser_EarthquakeData-Prefix.pch"; sourceTree = "<group>"; };
+		BB9073D318285F930016FEB7 /* Earthquakes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Earthquakes-Prefix.pch"; sourceTree = "<group>"; };
 		BB9073D418285F930016FEB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB9073D518285F930016FEB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BB9073D818285F930016FEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		BB9073DB18285F930016FEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		BB9073E018285F930016FEB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BB9073E618285F930016FEB7 /* XML_Parser_EarthquakeDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XML_Parser_EarthquakeDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9073E618285F930016FEB7 /* EarthquakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9073E718285F930016FEB7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BB9073EF18285F930016FEB7 /* XML_Parser_EarthquakeDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XML_Parser_EarthquakeDataTests-Info.plist"; sourceTree = "<group>"; };
+		BB9073EF18285F930016FEB7 /* EarthquakesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EarthquakesTests-Info.plist"; sourceTree = "<group>"; };
 		BB9073F118285F930016FEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB9073FD18285FB70016FEB7 /* EarthquakeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakeTVC.h; sourceTree = "<group>"; };
 		BB9073FE18285FB70016FEB7 /* EarthquakeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakeTVC.m; sourceTree = "<group>"; };
@@ -120,8 +120,8 @@
 		BB9073C318285F930016FEB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB9073C218285F930016FEB7 /* XML_Parser_EarthquakeData.app */,
-				BB9073E618285F930016FEB7 /* XML_Parser_EarthquakeDataTests.xctest */,
+				BB9073C218285F930016FEB7 /* Earthquakes.app */,
+				BB9073E618285F930016FEB7 /* EarthquakesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 			children = (
 				BB9073D418285F930016FEB7 /* AppDelegate.h */,
 				BB9073D518285F930016FEB7 /* AppDelegate.m */,
-				BB9073CD18285F930016FEB7 /* XML_Parser_EarthquakeData-Info.plist */,
+				BB9073CD18285F930016FEB7 /* Earthquakes-Info.plist */,
 				BB9073CE18285F930016FEB7 /* InfoPlist.strings */,
 				BB9073D118285F930016FEB7 /* main.m */,
-				BB9073D318285F930016FEB7 /* XML_Parser_EarthquakeData-Prefix.pch */,
+				BB9073D318285F930016FEB7 /* Earthquakes-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 		BB9073EE18285F930016FEB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB9073EF18285F930016FEB7 /* XML_Parser_EarthquakeDataTests-Info.plist */,
+				BB9073EF18285F930016FEB7 /* EarthquakesTests-Info.plist */,
 				BB9073F018285F930016FEB7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -212,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB9073C118285F930016FEB7 /* XML_Parser_EarthquakeData */ = {
+		BB9073C118285F930016FEB7 /* Earthquakes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB9073F718285F930016FEB7 /* Build configuration list for PBXNativeTarget "XML_Parser_EarthquakeData" */;
+			buildConfigurationList = BB9073F718285F930016FEB7 /* Build configuration list for PBXNativeTarget "Earthquakes" */;
 			buildPhases = (
 				BB9073BE18285F930016FEB7 /* Sources */,
 				BB9073BF18285F930016FEB7 /* Frameworks */,
@@ -224,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = XML_Parser_EarthquakeData;
+			name = Earthquakes;
 			productName = XML_Parser_EarthquakeData;
-			productReference = BB9073C218285F930016FEB7 /* XML_Parser_EarthquakeData.app */;
+			productReference = BB9073C218285F930016FEB7 /* Earthquakes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB9073E518285F930016FEB7 /* XML_Parser_EarthquakeDataTests */ = {
+		BB9073E518285F930016FEB7 /* EarthquakesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB9073FA18285F930016FEB7 /* Build configuration list for PBXNativeTarget "XML_Parser_EarthquakeDataTests" */;
+			buildConfigurationList = BB9073FA18285F930016FEB7 /* Build configuration list for PBXNativeTarget "EarthquakesTests" */;
 			buildPhases = (
 				BB9073E218285F930016FEB7 /* Sources */,
 				BB9073E318285F930016FEB7 /* Frameworks */,
@@ -242,9 +242,9 @@
 			dependencies = (
 				BB9073EC18285F930016FEB7 /* PBXTargetDependency */,
 			);
-			name = XML_Parser_EarthquakeDataTests;
+			name = EarthquakesTests;
 			productName = XML_Parser_EarthquakeDataTests;
-			productReference = BB9073E618285F930016FEB7 /* XML_Parser_EarthquakeDataTests.xctest */;
+			productReference = BB9073E618285F930016FEB7 /* EarthquakesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB9073BD18285F930016FEB7 /* Build configuration list for PBXProject "XML_Parser_EarthquakeData" */;
+			buildConfigurationList = BB9073BD18285F930016FEB7 /* Build configuration list for PBXProject "Earthquakes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -274,8 +274,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB9073C118285F930016FEB7 /* XML_Parser_EarthquakeData */,
-				BB9073E518285F930016FEB7 /* XML_Parser_EarthquakeDataTests */,
+				BB9073C118285F930016FEB7 /* Earthquakes */,
+				BB9073E518285F930016FEB7 /* EarthquakesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +338,7 @@
 /* Begin PBXTargetDependency section */
 		BB9073EC18285F930016FEB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB9073C118285F930016FEB7 /* XML_Parser_EarthquakeData */;
+			target = BB9073C118285F930016FEB7 /* Earthquakes */;
 			targetProxy = BB9073EB18285F930016FEB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -459,9 +459,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XML_Parser_EarthquakeData/XML_Parser_EarthquakeData-Prefix.pch";
-				INFOPLIST_FILE = "XML_Parser_EarthquakeData/XML_Parser_EarthquakeData-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "XML_Parser_EarthquakeData/Earthquakes-Prefix.pch";
+				INFOPLIST_FILE = "XML_Parser_EarthquakeData/Earthquakes-Info.plist";
+				PRODUCT_NAME = Earthquakes;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -472,9 +472,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XML_Parser_EarthquakeData/XML_Parser_EarthquakeData-Prefix.pch";
-				INFOPLIST_FILE = "XML_Parser_EarthquakeData/XML_Parser_EarthquakeData-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "XML_Parser_EarthquakeData/Earthquakes-Prefix.pch";
+				INFOPLIST_FILE = "XML_Parser_EarthquakeData/Earthquakes-Info.plist";
+				PRODUCT_NAME = Earthquakes;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -495,8 +495,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "XML_Parser_EarthquakeDataTests/XML_Parser_EarthquakeDataTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "XML_Parser_EarthquakeDataTests/EarthquakesTests-Info.plist";
+				PRODUCT_NAME = EarthquakesTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -514,8 +514,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XML_Parser_EarthquakeData/XML_Parser_EarthquakeData-Prefix.pch";
-				INFOPLIST_FILE = "XML_Parser_EarthquakeDataTests/XML_Parser_EarthquakeDataTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "XML_Parser_EarthquakeDataTests/EarthquakesTests-Info.plist";
+				PRODUCT_NAME = EarthquakesTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -524,7 +524,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB9073BD18285F930016FEB7 /* Build configuration list for PBXProject "XML_Parser_EarthquakeData" */ = {
+		BB9073BD18285F930016FEB7 /* Build configuration list for PBXProject "Earthquakes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB9073F518285F930016FEB7 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB9073F718285F930016FEB7 /* Build configuration list for PBXNativeTarget "XML_Parser_EarthquakeData" */ = {
+		BB9073F718285F930016FEB7 /* Build configuration list for PBXNativeTarget "Earthquakes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB9073F818285F930016FEB7 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB9073FA18285F930016FEB7 /* Build configuration list for PBXNativeTarget "XML_Parser_EarthquakeDataTests" */ = {
+		BB9073FA18285F930016FEB7 /* Build configuration list for PBXNativeTarget "EarthquakesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB9073FB18285F930016FEB7 /* Debug */,

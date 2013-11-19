@@ -89,15 +89,17 @@
     return eqCell;
 }
 
-
-
-#pragma mark - Prepare For Segue
-
 - (void)      tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // this happens after "prepareForSegue", therefore don't use ... use  NSIndexPath *indexPath = [self.eqOptionTableView indexPathForSelectedRow];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
+
+
+#pragma mark - Prepare For Segue
+
+
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue
                 sender:(id)sender

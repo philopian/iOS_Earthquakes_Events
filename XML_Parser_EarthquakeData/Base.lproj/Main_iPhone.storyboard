@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vkc-bh-7jF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--EarthquakeTVC - > 4.5 Mag EQ last week-->
@@ -101,7 +101,7 @@
             </objects>
             <point key="canvasLocation" x="662" y="189"/>
         </scene>
-        <!--Earthquake Time FrameTVC - Select Earthquake Timeframe-->
+        <!--Earthquake Time FrameTVC - Earthquake Timeframe-->
         <scene sceneID="hWq-AP-GCN">
             <objects>
                 <viewController id="C0F-Xw-bYA" customClass="EarthquakeTimeFrameTVC" sceneMemberID="viewController">
@@ -128,7 +128,7 @@
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="chD-Nb-oIV">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 </label>
@@ -144,7 +144,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Select Earthquake Timeframe" id="t2C-ff-1ET"/>
+                    <navigationItem key="navigationItem" title="Earthquake Timeframe" id="t2C-ff-1ET"/>
                     <connections>
                         <outlet property="eqOptionTableView" destination="aNH-eZ-13R" id="GKn-zo-GsI"/>
                     </connections>

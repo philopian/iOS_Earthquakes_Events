@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB9073C118285F930016FEB7"
                BuildableName = "XML_Parser_EarthquakeData.app"
-               BlueprintName = "XML_Parser_EarthquakeData"
-               ReferencedContainer = "container:XML_Parser_EarthquakeData.xcodeproj">
+               BlueprintName = "Earthquakes"
+               ReferencedContainer = "container:Earthquakes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB9073E518285F930016FEB7"
                BuildableName = "XML_Parser_EarthquakeDataTests.xctest"
-               BlueprintName = "XML_Parser_EarthquakeDataTests"
-               ReferencedContainer = "container:XML_Parser_EarthquakeData.xcodeproj">
+               BlueprintName = "EarthquakesTests"
+               ReferencedContainer = "container:Earthquakes.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9073C118285F930016FEB7"
             BuildableName = "XML_Parser_EarthquakeData.app"
-            BlueprintName = "XML_Parser_EarthquakeData"
-            ReferencedContainer = "container:XML_Parser_EarthquakeData.xcodeproj">
+            BlueprintName = "Earthquakes"
+            ReferencedContainer = "container:Earthquakes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9073C118285F930016FEB7"
             BuildableName = "XML_Parser_EarthquakeData.app"
-            BlueprintName = "XML_Parser_EarthquakeData"
-            ReferencedContainer = "container:XML_Parser_EarthquakeData.xcodeproj">
+            BlueprintName = "Earthquakes"
+            ReferencedContainer = "container:Earthquakes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9073C118285F930016FEB7"
             BuildableName = "XML_Parser_EarthquakeData.app"
-            BlueprintName = "XML_Parser_EarthquakeData"
-            ReferencedContainer = "container:XML_Parser_EarthquakeData.xcodeproj">
+            BlueprintName = "Earthquakes"
+            ReferencedContainer = "container:Earthquakes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
