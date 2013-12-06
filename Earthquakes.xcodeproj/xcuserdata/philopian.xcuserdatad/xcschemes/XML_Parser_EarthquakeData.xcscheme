@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB9073C118285F930016FEB7"
-               BuildableName = "XML_Parser_EarthquakeData.app"
+               BuildableName = "Earthquakes.app"
                BlueprintName = "Earthquakes"
                ReferencedContainer = "container:Earthquakes.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB9073E518285F930016FEB7"
-               BuildableName = "XML_Parser_EarthquakeDataTests.xctest"
+               BuildableName = "EarthquakesTests.xctest"
                BlueprintName = "EarthquakesTests"
                ReferencedContainer = "container:Earthquakes.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9073C118285F930016FEB7"
-            BuildableName = "XML_Parser_EarthquakeData.app"
+            BuildableName = "Earthquakes.app"
             BlueprintName = "Earthquakes"
             ReferencedContainer = "container:Earthquakes.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9073C118285F930016FEB7"
-            BuildableName = "XML_Parser_EarthquakeData.app"
+            BuildableName = "Earthquakes.app"
             BlueprintName = "Earthquakes"
             ReferencedContainer = "container:Earthquakes.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9073C118285F930016FEB7"
-            BuildableName = "XML_Parser_EarthquakeData.app"
+            BuildableName = "Earthquakes.app"
             BlueprintName = "Earthquakes"
             ReferencedContainer = "container:Earthquakes.xcodeproj">
          </BuildableReference>

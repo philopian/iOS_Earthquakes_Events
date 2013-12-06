@@ -181,7 +181,10 @@ XMLParser *xmlParser;
         //[NSThread sleepForTimeInterval:2];
         [self eqDataSourceURL:self.earthquakeUrlForTVC
                     xmlParser:xmlParser];
-        [_eqTableView reloadData];
+ 
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            [_eqTableView reloadData];
+        });
     });
 }
 
